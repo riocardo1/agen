@@ -156,17 +156,54 @@
 			    <div id="aereos" class="tab-pane fade in active">
 			    	<!--Inicio tipoviaje-->
 					<div id="tipoviaje" class="row">
+						<!--Inicio tipovuelo-->
+						<div id="tipovuelo" class="col-md-12">							
+							<label class="radio-inline"><input type="radio" value="idavuelta" name="optradio">Ida y Vuelta</label>
+							<label class="radio-inline"><input type="radio" value="soloida" name="optradio">Solo Ida</label>
+							<label class="radio-inline"><input type="radio" value="multiplesdestinos" name="optradio">Multiples destinos</label>							
+						</div>
+						<!--Fin tipovuelo-->							
 						Buscador viaje
 					</div>
 					<!--Fin tipoviaje-->
+					
 					<!--Inicio filtros-->
 					<div id="filtrosaereos" class="col-md-9">
+						<!--Inicio fechasvuelo-->
+						<div id="fechasvuelo" class="col-md-12">
 						
+							<div class="form-group">
+								<input type="text" name="origen" class="form-control" placeholder="Origen">
+								<input type="text" name="destino" class="form-control" placeholder="Destino">
+							
+									<div class="form-group">
+										<div class='input-group date' id='datetimepicker6'>
+											<input type='text' class="form-control" />
+											<span class="input-group-addon">
+												<span class="glyphicon glyphicon-calendar"></span>
+											</span>
+										</div>
+									</div>
+								
+									<div class="form-group">
+										<div class='input-group date' id='datetimepicker7'>
+											<input type='text' class="form-control" />
+											<span class="input-group-addon">
+												<span class="glyphicon glyphicon-calendar"></span>
+											</span>
+										</div>
+									</div>
+						
+								
+							</div>
+						</div>
+						<!--Fin fechasvuelo-->
+						</form>
 					</div>
 					<!--Fin filtros-->
 					<!--Inicio botonbuscar-->
 					<div id="buscaraereos" class="col-md-3">
-						
+						<input type="submit" value="Buscar" class="btn btn-success">
 					</div>
 					<!--Fin botonbuscar-->
 			    </div>

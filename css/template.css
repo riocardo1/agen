@@ -580,4 +580,7 @@ margin-top: 0px;
     margin-right: 50px;
     margin-right: 4%;
 }
+#aereos, #tipoviaje{
+	background-color: #2f3a3e;
+    opacity: 0.8;
 }
